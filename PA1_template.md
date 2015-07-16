@@ -21,7 +21,7 @@ Variables (as described by Coursera):
 ###Task 1: Prepare the enviroment, load and preprocess the data
 
 ```r
-#setwd("~/Documents/Coursera/1. DataScience/5. Reproducible Data Anaylsis/Peer Assessment Project 1")
+setwd("~/Documents/Coursera/1. DataScience/5. Reproducible Data Anaylsis/Peer Assessment Project 1")
 library(knitr)
 opts_chunk$set(echo=TRUE, results="show") 
 ```
