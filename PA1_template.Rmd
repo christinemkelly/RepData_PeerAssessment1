@@ -1,9 +1,9 @@
----------------------------------------------------------
+---
 Title: "Reproducible Research: Peer Assessment 1"
 output: 
   html_document:
-    keep_md: true
---------------------------------------------------------
+    keep_md: yes
+---
 ###C. Kelly      17 July 2015
 ###Introduction
 
@@ -26,11 +26,11 @@ Variables (as described by Coursera):
 
 ###Task 1: Prepare the enviroment, load and preprocess the data
 ```{r Preparing the environment}
-setwd("~/Documents/Coursera/1. DataScience/5. Reproducible Data Anaylsis/Peer Assessment Project 1/RepData_PeerAssessment1")
-library(knitr) 
-opts_chunk$set(echo=TRUE,results="show",cache=TRUE) 
+#setwd("~/Documents/Coursera/1. DataScience/5. Reproducible Data Anaylsis/Peer Assessment Project 1")
+library(knitr)
+opts_chunk$set(echo=TRUE, results="show") 
 ```
-The dataset was downloaded and read into R as a master file. This file was  copied to a working file thus preserving the integrity of the original data set and avoiding re-downloading and re-reading in the event of an error.
+The dataset was downloaded and read into R as a master file. This file was copied to a working file thus preserving the integrity of the original data set and avoiding re-downloading and re-reading in the event of an error.
 ```{r Loading and reading the data}
 
 if(!file.exists("./activity.zip")) {
